@@ -5,7 +5,6 @@ from pathlib import Path
 import dash_core_components as dcc
 import dash_html_components as html
 import datetime
-from pandas_datareader import data as pdr
 import plotly.express as px
 
 default_columns = ['Name', 'Symbol', 'Sector', 'Country', 'Industry']
