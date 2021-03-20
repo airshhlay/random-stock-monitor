@@ -148,6 +148,6 @@ def clear_button(n_clicks):
 
     clear(state)
     return [default]
-
+ 
 if __name__ == '__main__':
     app.run_server(debug=True)
